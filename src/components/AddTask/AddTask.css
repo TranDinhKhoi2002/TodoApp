@@ -1,0 +1,60 @@
+.add-task {
+  background-color: #ff4545;
+  width: 50%;
+  height: calc(100vh - 80px);
+  padding: 100px 50px 50px 50px;
+}
+
+.add-task__title {
+  display: flex;
+  gap: 10px;
+  place-items: center;
+}
+
+.add-task__title__text {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.add-task__title__icon {
+  width: 25px;
+}
+
+.add-task__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.add-task__count {
+  font-size: 12px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.add-task__form__content {
+  resize: none;
+  height: 120px;
+}
+
+.add-task__form__submit {
+  width: 250px;
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-inline: auto;
+}
